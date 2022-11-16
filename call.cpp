@@ -1,3 +1,11 @@
+# Value & Pointer
+
+int a = 1 # 값 변수 선언
+int* b = &a # 주소 변수 선언
+# a: 값 변수  / &a: 주소변수(=b)
+# b: 주소변수 / *b: 값변수(=a)
+
+
 # Call by Value
 
 int a = 20;
