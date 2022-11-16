@@ -9,16 +9,13 @@ int* b = &a # 주소 변수 선언
 # Call by Value
 
 int a = 20;
-
 void func(int n){
     return n;
 }
 
-
 # Call by reference
 
 int a = 20;
-
 void func(int& n){
     return n;
 }
