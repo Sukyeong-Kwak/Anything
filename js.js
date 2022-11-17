@@ -10,7 +10,7 @@ const name = "Mike" // 변경 불가능한 변수형
 // 가급적 상수는 대문자로 알려주기
 // 변수명은 읽기 쉽고 이해하기 쉽게 선언하기
 
-const massage = "My name is ${name}"; // 문자열에 변수 넣을 때는 큰따옴표 사용
+const massage = `My name is ${name}`; // 문자열에 변수 넣을 때는 큰따옴표 사용
 
 // 대화상자(기본 설정)
 alert(123); // 창 띄워서 메세지 전달
@@ -46,3 +46,42 @@ switch(S){
   case A:
   case B:
 }
+
+
+// 함수
+function Hi(name) {
+  console.log(`Hi, ${namx}`);
+} // 함수 선언문
+
+let Hi = function(name) {
+  console.log(`Hi, ${namx}`);
+} // 함수 표현식 
+
+// 둘 다 함수를 선언하는 방식
+// 함수 선언문: 어디서든 호출 가능, JS에서 함수 선언문을 코드 실행 시 미리 읽기 때문
+// 함수 표현식: 
+
+
+// 객체
+const me = {
+  name: 'kwak',
+  age: 35,
+}
+ 
+// 접근
+me.name // 'kwak'
+me['age'] // 35
+ 
+// 추가
+me.gender = 'male'
+ 
+//삭제
+delete me.hairColor;
+ 
+ 
+// 배열
+let days = ['월', '화', '수'];
+days.push('목'); // 배열 뒤에 추가
+days.unshift('금', '토', '일'); // 배열 앞에 추가
+days.pop(); // 배열 뒤에서부터 제거 
+days.shift();// 배열 앞에서부터 제거
