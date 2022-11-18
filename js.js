@@ -85,3 +85,10 @@ days.push('목'); // 배열 뒤에 추가
 days.unshift('금', '토', '일'); // 배열 앞에 추가
 days.pop(); // 배열 뒤에서부터 제거 
 days.shift();// 배열 앞에서부터 제거
+
+
+// DOM(Doucument Object Model)
+// 랜더링 엔진이 브라우저에서 html파일을 한줄 한줄 해석한 후에 
+// 그 문서를 객체화하여 Javascript로 접근할 수 있도록 함 
+
+#document // 가장 최상위 노드
